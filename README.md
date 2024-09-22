@@ -43,3 +43,7 @@ where `a`, `c`, and `m` are constants, and `X` is the current state (seed). The 
    ```python
    save_sequence_to_binary_file(sequence, "filename.bin")
    ```
+
+## DieHard Test Suite
+
+The **DieHard Test Suite** is a collection of tests designed to evaluate the quality of random number generators by subjecting the generated sequences to rigorous statistical analysis. In this project, the generated sequences from both the LCG and Mersenne Twister algorithms are saved in binary format and tested using the DieHarder suite.
